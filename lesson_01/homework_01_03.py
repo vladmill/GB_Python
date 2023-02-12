@@ -7,8 +7,8 @@
 n + nn + nnn = 369
 """
 
-n = int(input("Введите целое положительное число: "))
-nn = n * 2
-nnn = n * 3
-
-print(f"n + nn + nnn = {n}{nn}{nnn}")
+n = input("Введите целое положительное число: ")
+nn = n + n
+nnn = n + n + n
+result = int(n) + int(nn) + int(nnn)
+print(f"n + nn + nnn = {result}")
