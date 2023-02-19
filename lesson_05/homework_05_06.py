@@ -7,6 +7,8 @@
 Решите через рекурсию. В задании нельзя применять циклы.
 """
 
+import random
+
 
 def input_num(attempt):
     try:
@@ -37,7 +39,6 @@ def guess_num(x, attempt, i=0):
     else:
         print(f"Вы не справились. Было загадано число {x}")
 
-import random
 
 num_from = 0
 num_to = 100
