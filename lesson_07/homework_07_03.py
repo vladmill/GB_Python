@@ -45,7 +45,10 @@ class Position(Worker):
         return sum(self._income.values())
 
     def __str__(self):
-        print("объект")
+        return f"Полное имя: {self.get_full_name()}\n" \
+            f"Должность: {self.position} \n" \
+            f"Доход: {self.get_total_income()}\n"
+
 
 
 if __name__ == '__main__':
